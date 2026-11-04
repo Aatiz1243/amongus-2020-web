@@ -1,0 +1,49 @@
+# Project: amongus-2020-web
+
+## Objective
+
+Create a browser-accessible revival of the classic 2020 Among Us experience by investigating and adapting existing 2020 Android APK releases instead of rebuilding the entire game from scratch.
+
+Repository: `amongus-2020-web`
+
+## Core Approach
+
+1. Obtain a legitimate copy of a historical Among Us APK.
+2. Inspect its contents, Unity assets, game logic, and networking architecture.
+3. Determine whether the original client can be adapted to run in a browser using a compatible Unity Web build or another technically viable approach.
+4. Preserve the original gameplay wherever legally and technically possible.
+5. Investigate how the old client communicates with the original multiplayer servers.
+6. Determine whether an authorized compatibility layer or replacement server can support the old client.
+7. Package the resulting project so users can host it privately.
+
+## Hosting Model
+
+One person hosts the game server. Other players visit the host's website and join through their browsers.
+
+Support LAN and internet hosting where technically feasible.
+
+## Important Technical Requirements
+
+- Do not assume an APK can be converted directly into a browser game.
+- Determine whether the historical Unity build can run on the web.
+- Investigate native Android dependencies and platform-specific functionality.
+- Examine multiplayer protocol compatibility before attempting server replacement.
+- Avoid requiring a complete rewrite unless no viable reuse path exists.
+- Do not depend on Innersloth's private infrastructure or modify its services without authorization.
+
+## Legal Requirements
+
+Investigate the permissions needed to modify, distribute, and publicly host the original game's code and assets. For public distribution, use authorized materials or obtain the necessary licenses.
+
+## First Deliverable
+
+Produce a technical feasibility report answering:
+
+1. Which 2020 APK version is the best candidate for investigation?
+2. Can its Unity game be adapted to run in modern browsers?
+3. Can its original assets and gameplay logic be reused legally?
+4. Can its multiplayer client connect to an independently operated server?
+5. What is the minimum modification required?
+6. What can realistically be achieved without rebuilding the game?
+
+Do not begin a full rewrite before answering these questions.
